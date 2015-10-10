@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc function
- * @name boneProjectApp.controller:MainCtrl
+ * @name angularClient.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the boneProjectApp
+ * Controller of the angularClient
  */
-angular.module('boneProjectApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('angularClient')
+    .controller('MainCtrl', function() {
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+    });
